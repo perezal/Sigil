@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F095A5E1907178D005A99DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F095A5D1907178D005A99DC /* Foundation.framework */; };
+		7F095A601907178D005A99DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F095A5F1907178D005A99DC /* CoreGraphics.framework */; };
+		7F095A621907178D005A99DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F095A611907178D005A99DC /* UIKit.framework */; };
+		7F095A641907178D005A99DC /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F095A631907178D005A99DC /* SpriteKit.framework */; };
+		7F095A6A1907178D005A99DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F095A681907178D005A99DC /* InfoPlist.strings */; };
+		7F095A6C1907178D005A99DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F095A6B1907178D005A99DC /* main.m */; };
+		7F095A701907178D005A99DC /* SigilAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F095A6F1907178D005A99DC /* SigilAppDelegate.m */; };
+		7F095A731907178D005A99DC /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F095A711907178D005A99DC /* Main_iPhone.storyboard */; };
+		7F095A761907178D005A99DC /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F095A741907178D005A99DC /* Main_iPad.storyboard */; };
+		7F095A791907178D005A99DC /* SigilViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F095A781907178D005A99DC /* SigilViewController.m */; };
+		7F095A7C1907178D005A99DC /* SigilMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F095A7B1907178D005A99DC /* SigilMyScene.m */; };
+		7F095A7E1907178D005A99DC /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F095A7D1907178D005A99DC /* Spaceship.png */; };
+		7F095A801907178D005A99DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F095A7F1907178D005A99DC /* Images.xcassets */; };
+		7F095A871907178E005A99DC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F095A861907178E005A99DC /* XCTest.framework */; };
+		7F095A881907178E005A99DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F095A5D1907178D005A99DC /* Foundation.framework */; };
+		7F095A891907178E005A99DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F095A611907178D005A99DC /* UIKit.framework */; };
+		7F095A911907178E005A99DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F095A8F1907178E005A99DC /* InfoPlist.strings */; };
+		7F095A931907178E005A99DC /* SigilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F095A921907178E005A99DC /* SigilTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F095A8A1907178E005A99DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F095A521907178D005A99DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F095A591907178D005A99DC;
+			remoteInfo = Sigil;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F095A5A1907178D005A99DC /* Sigil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sigil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F095A5D1907178D005A99DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7F095A5F1907178D005A99DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7F095A611907178D005A99DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7F095A631907178D005A99DC /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		7F095A671907178D005A99DC /* Sigil-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sigil-Info.plist"; sourceTree = "<group>"; };
+		7F095A691907178D005A99DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F095A6B1907178D005A99DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F095A6D1907178D005A99DC /* Sigil-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sigil-Prefix.pch"; sourceTree = "<group>"; };
+		7F095A6E1907178D005A99DC /* SigilAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SigilAppDelegate.h; sourceTree = "<group>"; };
+		7F095A6F1907178D005A99DC /* SigilAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SigilAppDelegate.m; sourceTree = "<group>"; };
+		7F095A721907178D005A99DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		7F095A751907178D005A99DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		7F095A771907178D005A99DC /* SigilViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SigilViewController.h; sourceTree = "<group>"; };
+		7F095A781907178D005A99DC /* SigilViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SigilViewController.m; sourceTree = "<group>"; };
+		7F095A7A1907178D005A99DC /* SigilMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SigilMyScene.h; sourceTree = "<group>"; };
+		7F095A7B1907178D005A99DC /* SigilMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SigilMyScene.m; sourceTree = "<group>"; };
+		7F095A7D1907178D005A99DC /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		7F095A7F1907178D005A99DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7F095A851907178E005A99DC /* SigilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SigilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F095A861907178E005A99DC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7F095A8E1907178E005A99DC /* SigilTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SigilTests-Info.plist"; sourceTree = "<group>"; };
+		7F095A901907178E005A99DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F095A921907178E005A99DC /* SigilTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SigilTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F095A571907178D005A99DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F095A601907178D005A99DC /* CoreGraphics.framework in Frameworks */,
+				7F095A621907178D005A99DC /* UIKit.framework in Frameworks */,
+				7F095A641907178D005A99DC /* SpriteKit.framework in Frameworks */,
+				7F095A5E1907178D005A99DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F095A821907178E005A99DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F095A871907178E005A99DC /* XCTest.framework in Frameworks */,
+				7F095A891907178E005A99DC /* UIKit.framework in Frameworks */,
+				7F095A881907178E005A99DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F095A511907178D005A99DC = {
+			isa = PBXGroup;
+			children = (
+				7F095A651907178D005A99DC /* Sigil */,
+				7F095A8C1907178E005A99DC /* SigilTests */,
+				7F095A5C1907178D005A99DC /* Frameworks */,
+				7F095A5B1907178D005A99DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F095A5B1907178D005A99DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F095A5A1907178D005A99DC /* Sigil.app */,
+				7F095A851907178E005A99DC /* SigilTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F095A5C1907178D005A99DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F095A5D1907178D005A99DC /* Foundation.framework */,
+				7F095A5F1907178D005A99DC /* CoreGraphics.framework */,
+				7F095A611907178D005A99DC /* UIKit.framework */,
+				7F095A631907178D005A99DC /* SpriteKit.framework */,
+				7F095A861907178E005A99DC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F095A651907178D005A99DC /* Sigil */ = {
+			isa = PBXGroup;
+			children = (
+				7F095A6E1907178D005A99DC /* SigilAppDelegate.h */,
+				7F095A6F1907178D005A99DC /* SigilAppDelegate.m */,
+				7F095A711907178D005A99DC /* Main_iPhone.storyboard */,
+				7F095A741907178D005A99DC /* Main_iPad.storyboard */,
+				7F095A771907178D005A99DC /* SigilViewController.h */,
+				7F095A781907178D005A99DC /* SigilViewController.m */,
+				7F095A7A1907178D005A99DC /* SigilMyScene.h */,
+				7F095A7B1907178D005A99DC /* SigilMyScene.m */,
+				7F095A7D1907178D005A99DC /* Spaceship.png */,
+				7F095A7F1907178D005A99DC /* Images.xcassets */,
+				7F095A661907178D005A99DC /* Supporting Files */,
+			);
+			path = Sigil;
+			sourceTree = "<group>";
+		};
+		7F095A661907178D005A99DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F095A671907178D005A99DC /* Sigil-Info.plist */,
+				7F095A681907178D005A99DC /* InfoPlist.strings */,
+				7F095A6B1907178D005A99DC /* main.m */,
+				7F095A6D1907178D005A99DC /* Sigil-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F095A8C1907178E005A99DC /* SigilTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F095A921907178E005A99DC /* SigilTests.m */,
+				7F095A8D1907178E005A99DC /* Supporting Files */,
+			);
+			path = SigilTests;
+			sourceTree = "<group>";
+		};
+		7F095A8D1907178E005A99DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F095A8E1907178E005A99DC /* SigilTests-Info.plist */,
+				7F095A8F1907178E005A99DC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F095A591907178D005A99DC /* Sigil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F095A961907178E005A99DC /* Build configuration list for PBXNativeTarget "Sigil" */;
+			buildPhases = (
+				7F095A561907178D005A99DC /* Sources */,
+				7F095A571907178D005A99DC /* Frameworks */,
+				7F095A581907178D005A99DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sigil;
+			productName = Sigil;
+			productReference = 7F095A5A1907178D005A99DC /* Sigil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F095A841907178E005A99DC /* SigilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F095A991907178E005A99DC /* Build configuration list for PBXNativeTarget "SigilTests" */;
+			buildPhases = (
+				7F095A811907178E005A99DC /* Sources */,
+				7F095A821907178E005A99DC /* Frameworks */,
+				7F095A831907178E005A99DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F095A8B1907178E005A99DC /* PBXTargetDependency */,
+			);
+			name = SigilTests;
+			productName = SigilTests;
+			productReference = 7F095A851907178E005A99DC /* SigilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F095A521907178D005A99DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Sigil;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Alex Perez";
+				TargetAttributes = {
+					7F095A841907178E005A99DC = {
+						TestTargetID = 7F095A591907178D005A99DC;
+					};
+				};
+			};
+			buildConfigurationList = 7F095A551907178D005A99DC /* Build configuration list for PBXProject "Sigil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F095A511907178D005A99DC;
+			productRefGroup = 7F095A5B1907178D005A99DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F095A591907178D005A99DC /* Sigil */,
+				7F095A841907178E005A99DC /* SigilTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F095A581907178D005A99DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F095A7E1907178D005A99DC /* Spaceship.png in Resources */,
+				7F095A801907178D005A99DC /* Images.xcassets in Resources */,
+				7F095A761907178D005A99DC /* Main_iPad.storyboard in Resources */,
+				7F095A731907178D005A99DC /* Main_iPhone.storyboard in Resources */,
+				7F095A6A1907178D005A99DC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F095A831907178E005A99DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F095A911907178E005A99DC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F095A561907178D005A99DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F095A791907178D005A99DC /* SigilViewController.m in Sources */,
+				7F095A7C1907178D005A99DC /* SigilMyScene.m in Sources */,
+				7F095A6C1907178D005A99DC /* main.m in Sources */,
+				7F095A701907178D005A99DC /* SigilAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F095A811907178E005A99DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F095A931907178E005A99DC /* SigilTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F095A8B1907178E005A99DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F095A591907178D005A99DC /* Sigil */;
+			targetProxy = 7F095A8A1907178E005A99DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F095A681907178D005A99DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F095A691907178D005A99DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7F095A711907178D005A99DC /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F095A721907178D005A99DC /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		7F095A741907178D005A99DC /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F095A751907178D005A99DC /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		7F095A8F1907178E005A99DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F095A901907178E005A99DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F095A941907178E005A99DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F095A951907178E005A99DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F095A971907178E005A99DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sigil/Sigil-Prefix.pch";
+				INFOPLIST_FILE = "Sigil/Sigil-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7F095A981907178E005A99DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sigil/Sigil-Prefix.pch";
+				INFOPLIST_FILE = "Sigil/Sigil-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7F095A9A1907178E005A99DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sigil.app/Sigil";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sigil/Sigil-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SigilTests/SigilTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7F095A9B1907178E005A99DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sigil.app/Sigil";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sigil/Sigil-Prefix.pch";
+				INFOPLIST_FILE = "SigilTests/SigilTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F095A551907178D005A99DC /* Build configuration list for PBXProject "Sigil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F095A941907178E005A99DC /* Debug */,
+				7F095A951907178E005A99DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F095A961907178E005A99DC /* Build configuration list for PBXNativeTarget "Sigil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F095A971907178E005A99DC /* Debug */,
+				7F095A981907178E005A99DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F095A991907178E005A99DC /* Build configuration list for PBXNativeTarget "SigilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F095A9A1907178E005A99DC /* Debug */,
+				7F095A9B1907178E005A99DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F095A521907178D005A99DC /* Project object */;
+}
