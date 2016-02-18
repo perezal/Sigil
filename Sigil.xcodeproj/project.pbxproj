@@ -18,13 +18,20 @@
 		7F095A761907178D005A99DC /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F095A741907178D005A99DC /* Main_iPad.storyboard */; };
 		7F095A791907178D005A99DC /* SigilViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F095A781907178D005A99DC /* SigilViewController.m */; };
 		7F095A7C1907178D005A99DC /* SigilMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F095A7B1907178D005A99DC /* SigilMyScene.m */; };
-		7F095A7E1907178D005A99DC /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F095A7D1907178D005A99DC /* Spaceship.png */; };
 		7F095A801907178D005A99DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F095A7F1907178D005A99DC /* Images.xcassets */; };
 		7F095A871907178E005A99DC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F095A861907178E005A99DC /* XCTest.framework */; };
 		7F095A881907178E005A99DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F095A5D1907178D005A99DC /* Foundation.framework */; };
 		7F095A891907178E005A99DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F095A611907178D005A99DC /* UIKit.framework */; };
 		7F095A911907178E005A99DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F095A8F1907178E005A99DC /* InfoPlist.strings */; };
 		7F095A931907178E005A99DC /* SigilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F095A921907178E005A99DC /* SigilTests.m */; };
+		7F19E95619D0ECDF007BBEC8 /* SigilStart.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F19E95519D0ECDF007BBEC8 /* SigilStart.m */; };
+		7F5FFA8F1916D0990029CEB7 /* FireGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5FFA8E1916D0990029CEB7 /* FireGestureRecognizer.m */; };
+		7F5FFA9319172F560029CEB7 /* FireSigil.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7F5FFA9119172F560029CEB7 /* FireSigil.sks */; };
+		7F5FFA9419172F560029CEB7 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F5FFA9219172F560029CEB7 /* spark.png */; };
+		7F5FFA96191735F60029CEB7 /* Tulpa.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7F5FFA95191735F60029CEB7 /* Tulpa.sks */; };
+		7F5FFA9C191C96E20029CEB7 /* smoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7F5FFA9B191C96E20029CEB7 /* smoke.sks */; };
+		7F5FFA9E191C97100029CEB7 /* snow.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7F5FFA9D191C97100029CEB7 /* snow.sks */; };
+		7F7774D919DCF3DE0056C6DE /* Cast.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7F7774D819DCF3DE0056C6DE /* Cast.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,13 +62,23 @@
 		7F095A781907178D005A99DC /* SigilViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SigilViewController.m; sourceTree = "<group>"; };
 		7F095A7A1907178D005A99DC /* SigilMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SigilMyScene.h; sourceTree = "<group>"; };
 		7F095A7B1907178D005A99DC /* SigilMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SigilMyScene.m; sourceTree = "<group>"; };
-		7F095A7D1907178D005A99DC /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		7F095A7F1907178D005A99DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7F095A851907178E005A99DC /* SigilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SigilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F095A861907178E005A99DC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7F095A8E1907178E005A99DC /* SigilTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SigilTests-Info.plist"; sourceTree = "<group>"; };
 		7F095A901907178E005A99DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7F095A921907178E005A99DC /* SigilTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SigilTests.m; sourceTree = "<group>"; };
+		7F19E95419D0ECDF007BBEC8 /* SigilStart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigilStart.h; sourceTree = "<group>"; };
+		7F19E95519D0ECDF007BBEC8 /* SigilStart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SigilStart.m; sourceTree = "<group>"; };
+		7F5FFA8D1916D0990029CEB7 /* FireGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireGestureRecognizer.h; sourceTree = "<group>"; };
+		7F5FFA8E1916D0990029CEB7 /* FireGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireGestureRecognizer.m; sourceTree = "<group>"; };
+		7F5FFA901916EF300029CEB7 /* CGVectorMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGVectorMath.h; sourceTree = "<group>"; };
+		7F5FFA9119172F560029CEB7 /* FireSigil.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireSigil.sks; sourceTree = "<group>"; };
+		7F5FFA9219172F560029CEB7 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		7F5FFA95191735F60029CEB7 /* Tulpa.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Tulpa.sks; sourceTree = "<group>"; };
+		7F5FFA9B191C96E20029CEB7 /* smoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = smoke.sks; sourceTree = "<group>"; };
+		7F5FFA9D191C97100029CEB7 /* snow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = snow.sks; sourceTree = "<group>"; };
+		7F7774D819DCF3DE0056C6DE /* Cast.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Cast.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,9 +146,19 @@
 				7F095A741907178D005A99DC /* Main_iPad.storyboard */,
 				7F095A771907178D005A99DC /* SigilViewController.h */,
 				7F095A781907178D005A99DC /* SigilViewController.m */,
+				7F19E95419D0ECDF007BBEC8 /* SigilStart.h */,
+				7F19E95519D0ECDF007BBEC8 /* SigilStart.m */,
 				7F095A7A1907178D005A99DC /* SigilMyScene.h */,
 				7F095A7B1907178D005A99DC /* SigilMyScene.m */,
-				7F095A7D1907178D005A99DC /* Spaceship.png */,
+				7F5FFA8D1916D0990029CEB7 /* FireGestureRecognizer.h */,
+				7F5FFA8E1916D0990029CEB7 /* FireGestureRecognizer.m */,
+				7F5FFA901916EF300029CEB7 /* CGVectorMath.h */,
+				7F5FFA9119172F560029CEB7 /* FireSigil.sks */,
+				7F5FFA9B191C96E20029CEB7 /* smoke.sks */,
+				7F5FFA9D191C97100029CEB7 /* snow.sks */,
+				7F7774D819DCF3DE0056C6DE /* Cast.sks */,
+				7F5FFA95191735F60029CEB7 /* Tulpa.sks */,
+				7F5FFA9219172F560029CEB7 /* spark.png */,
 				7F095A7F1907178D005A99DC /* Images.xcassets */,
 				7F095A661907178D005A99DC /* Supporting Files */,
 			);
@@ -212,7 +239,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = Sigil;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Alex Perez";
 				TargetAttributes = {
 					7F095A841907178E005A99DC = {
@@ -244,10 +271,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F095A7E1907178D005A99DC /* Spaceship.png in Resources */,
+				7F5FFA9E191C97100029CEB7 /* snow.sks in Resources */,
+				7F5FFA9319172F560029CEB7 /* FireSigil.sks in Resources */,
+				7F5FFA9419172F560029CEB7 /* spark.png in Resources */,
+				7F5FFA9C191C96E20029CEB7 /* smoke.sks in Resources */,
 				7F095A801907178D005A99DC /* Images.xcassets in Resources */,
 				7F095A761907178D005A99DC /* Main_iPad.storyboard in Resources */,
 				7F095A731907178D005A99DC /* Main_iPhone.storyboard in Resources */,
+				7F5FFA96191735F60029CEB7 /* Tulpa.sks in Resources */,
+				7F7774D919DCF3DE0056C6DE /* Cast.sks in Resources */,
 				7F095A6A1907178D005A99DC /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,8 +300,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F095A791907178D005A99DC /* SigilViewController.m in Sources */,
+				7F19E95619D0ECDF007BBEC8 /* SigilStart.m in Sources */,
 				7F095A7C1907178D005A99DC /* SigilMyScene.m in Sources */,
 				7F095A6C1907178D005A99DC /* main.m in Sources */,
+				7F5FFA8F1916D0990029CEB7 /* FireGestureRecognizer.m in Sources */,
 				7F095A701907178D005A99DC /* SigilAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +380,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -408,6 +443,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sigil/Sigil-Prefix.pch";
 				INFOPLIST_FILE = "Sigil/Sigil-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "AP.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -422,6 +458,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sigil/Sigil-Prefix.pch";
 				INFOPLIST_FILE = "Sigil/Sigil-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "AP.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -444,6 +481,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "SigilTests/SigilTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "AP.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -462,6 +500,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sigil/Sigil-Prefix.pch";
 				INFOPLIST_FILE = "SigilTests/SigilTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "AP.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -487,6 +526,7 @@
 				7F095A981907178E005A99DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F095A991907178E005A99DC /* Build configuration list for PBXNativeTarget "SigilTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +535,7 @@
 				7F095A9B1907178E005A99DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

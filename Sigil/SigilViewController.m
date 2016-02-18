@@ -7,21 +7,26 @@
 //
 
 #import "SigilViewController.h"
-#import "SigilMyScene.h"
+#import "SigilStart.h"
 
 @implementation SigilViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+}
 
+- (void) viewWillLayoutSubviews
+{
+    [super viewWillLayoutSubviews];
+    
     // Configure the view.
-    SKView * skView = (SKView *)self.view;
+    SKView * skView = (SKView *) self.view;
     skView.showsFPS = YES;
     skView.showsNodeCount = YES;
     
     // Create and configure the scene.
-    SKScene * scene = [SigilMyScene sceneWithSize:skView.bounds.size];
+    SKScene * scene = [SigilStart sceneWithSize: skView.bounds.size];
     scene.scaleMode = SKSceneScaleModeAspectFill;
     
     // Present the scene.
@@ -33,19 +38,11 @@
     return YES;
 }
 
-- (NSUInteger)supportedInterfaceOrientations
-{
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        return UIInterfaceOrientationMaskAllButUpsideDown;
-    } else {
-        return UIInterfaceOrientationMaskAll;
-    }
-}
-
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Release any cached data, images, etc that aren't in use.
 }
+
 
 @end
