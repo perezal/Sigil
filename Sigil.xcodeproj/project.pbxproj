@@ -32,6 +32,7 @@
 		7F5FFA9C191C96E20029CEB7 /* smoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7F5FFA9B191C96E20029CEB7 /* smoke.sks */; };
 		7F5FFA9E191C97100029CEB7 /* snow.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7F5FFA9D191C97100029CEB7 /* snow.sks */; };
 		7F7774D919DCF3DE0056C6DE /* Cast.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7F7774D819DCF3DE0056C6DE /* Cast.sks */; };
+		7F8D4B081C76A7D300E99F59 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8D4B071C76A7D300E99F59 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		7F5FFA9B191C96E20029CEB7 /* smoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = smoke.sks; sourceTree = "<group>"; };
 		7F5FFA9D191C97100029CEB7 /* snow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = snow.sks; sourceTree = "<group>"; };
 		7F7774D819DCF3DE0056C6DE /* Cast.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Cast.sks; sourceTree = "<group>"; };
+		7F8D4B071C76A7D300E99F59 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 				7F095A6F1907178D005A99DC /* SigilAppDelegate.m */,
 				7F095A711907178D005A99DC /* Main_iPhone.storyboard */,
 				7F095A741907178D005A99DC /* Main_iPad.storyboard */,
+				7F8D4B071C76A7D300E99F59 /* Launch Screen.storyboard */,
 				7F095A771907178D005A99DC /* SigilViewController.h */,
 				7F095A781907178D005A99DC /* SigilViewController.m */,
 				7F19E95419D0ECDF007BBEC8 /* SigilStart.h */,
@@ -277,6 +280,7 @@
 				7F5FFA9C191C96E20029CEB7 /* smoke.sks in Resources */,
 				7F095A801907178D005A99DC /* Images.xcassets in Resources */,
 				7F095A761907178D005A99DC /* Main_iPad.storyboard in Resources */,
+				7F8D4B081C76A7D300E99F59 /* Launch Screen.storyboard in Resources */,
 				7F095A731907178D005A99DC /* Main_iPhone.storyboard in Resources */,
 				7F5FFA96191735F60029CEB7 /* Tulpa.sks in Resources */,
 				7F7774D919DCF3DE0056C6DE /* Cast.sks in Resources */,
